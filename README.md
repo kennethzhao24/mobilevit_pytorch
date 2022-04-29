@@ -15,7 +15,7 @@ PyTorch Implementation of [MobileViT](https://arxiv.org/pdf/2110.02178), with ad
 |  MobileViT-XXS  |     1.3 M    |  69.0  |  88.9  |  
 |  MobileViT-XS   |     2.3 M    |  74.7  |  92.3  |
 |  MobileViT-S    |     5.6 M    |  78.3  |  94.1  | 
-| MobileViT-Mini* |     2.0 M    |  69.0  |  88.9  | 
+| MobileViT-Mini* |     2.0 M    |  73.9  |  91.9  | 
 
 
 ## Semantic segmentation (mmseg)
