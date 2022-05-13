@@ -41,16 +41,14 @@ $ CUDA_VISIBLE_DEVICES=0 python main_eval.py \
    --weights ./weights/mobilevit_s.pt
 ```
 ### ImageNet-1k Results
-<center>
-|       Model    |  Parameters  |  Top-1 | Top-5  | 
-| -------------  | ------------ | ------ | ------ | 
+|      Model     |  Parameters  |  Top-1 | Top-5  | 
+| :------------: | :----------: | :----: | :----: | 
 | MobileViT-XXS  |     1.3 M    |  69.0  |  88.9  | 
 | MobileViT-Mini |     1.9 M    |  73.9  |  91.9  | 
 |  MobileViT-XS  |     2.3 M    |  74.7  |  92.3  | 
 |  MobileViT-S   |     5.6 M    |  78.3  |  94.1  |
 |  MobileNetV2   |     3.5 M    |  73.5  |  91.6  | 
 |    ResNet-50   |    25.6 M    |  78.6  |  94.5  | 
-</center>
 
 
 ## TODO
