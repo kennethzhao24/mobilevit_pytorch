@@ -38,7 +38,7 @@ print(y.shape)
 ```bash
 $ CUDA_VISIBLE_DEVICES=0 python main_eval.py \
    --model_name mobilevit_s \
-   --weights pretrained/weight/path
+   --weights ./weights/mobilevit_s.pt
 ```
 ### ImageNet-1k Results
 
