@@ -1,0 +1,26 @@
+dataset:
+  category: 'classification'
+  name: 'imagenet'
+  root_train: "/data/imagenet/train"
+  root_val: "/data/imagenet/val"
+  train_batch_size: 256
+  val_batch_size: 100
+  eval_batch_size: 100
+  workers: 8
+  persistent_workers: false
+  pin_memory: true
+sampler:
+  name: "batch_sampler"
+  bs:
+    crop_size_width: 256
+    crop_size_height: 256
+model:
+  classification:
+    classifier_dropout: 0.1
+  normalization:
+    name: "batch_norm_2d"
+    momentum: 0.1
+  layer:
+    conv_init: "kaiming_normal"
+    linear_init: "trunc_normal"
+    linear_init_std_dev: 0.02
